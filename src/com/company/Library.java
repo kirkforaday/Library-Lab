@@ -24,7 +24,7 @@ public class Library {
                 if (book.isBorrowed()) {
                     System.out.println("Sorry, this book is already borrowed.");
                 } else {
-                    book.borrowed();
+                    book.rented();
                     System.out.println("You successfully borrowed " + book.getTitle());
                 }
                 return;
