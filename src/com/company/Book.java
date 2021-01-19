@@ -8,9 +8,6 @@ public class Book {
         title = bookTitle;
         borrowed = false;
     }
-    public void borrowed(){
-        borrowed = true;
-    }
     // Marks the book as rented
     public void rented() {
         borrowed=true;
